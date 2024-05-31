@@ -119,11 +119,70 @@ nav li {
 /* gamer section styles */
 .gamer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     align-items: center;
     background-color: rgba(265, 66, 165, 0.03);
-    padding: 55px 75px;
+    padding: 20px 80px;
+    
 }
+
 .gamer-detail{
     text-align: right;
+}
+
+.gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-desc{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--text-grey);
+}
+.purpose{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-grey);
+    
+}
+.purpose-quote{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-grey);
+}
+.know{
+    margin-right: 0;
+}
+
+/* funny section styles */
+.funny{
+    padding: 50px;
+    text-align: center;
+}
+.funny-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.funny-title > span{
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.funny-card{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card-desc{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-grey);
+    text-align: left;
 }
